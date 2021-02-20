@@ -1,0 +1,230 @@
+/*font*/
+    /*font-family: 'Playfair Display', serif;
+
+    font-family: 'Ubuntu', sans-serif;*/
+
+/*font*/
+
+/* common star */
+	body{
+		margin:0;
+		padding:0;
+		font-family: 'Playfair Display', serif;
+		font-size: 16px;
+		font-weight: 400;
+		color: #626262;
+	}
+/* common end */
+/*header start*/
+header{
+	padding: 20px 0;
+	/*border: 1px solid red;*/
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	margin-top: 14px;
+	float: left;
+	width: 13%;
+	/*border: 1px solid black;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 70%;
+	/*border: 1px solid black;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	margin: 0 50px;
+	padding: 5px;
+	display: inline-block;
+	color: #626262;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-bottom:1px solid transparent;
+}
+.menu ul li:last-child a{
+	margin-right:0;
+}
+.menu ul li a:hover{
+	border-bottom:1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	width: 100%;
+	margin: auto;
+}
+.banner img{
+	width: 100%;
+}
+/*banner end*/
+/*photo diary start*/
+.photodiary{
+	margin: auto;
+	padding: 10px 9px;
+	width: 80%;
+	/*border: 1px solid red;*/
+}
+h6{
+	margin-top: 30px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+}
+h1{
+	margin: 15px 0px;
+	color: #626262;
+	text-transform: capitalize;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+}
+p{
+	line-height: 1.7rem;
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+}
+
+/*photo diary end*/
+/*leave a comment start*/
+.lifestyle{
+	width: 80%;
+	margin: auto;
+	margin-top: 60px;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.lifestyle1{
+	margin-top: 50px;
+
+	width: 47%;
+	float: left;
+}
+.lifestyle1 img{
+	width: 100%;
+}
+.lifestyle2{
+	margin-top: 50px;
+	width:47%;
+	float: right;
+}
+.lifestyle2 img{
+	width: 100%;
+}
+/*leave a comment end*/
+/*news letter start*/
+.newsletter{
+	background-color: #f0f0f0;
+	padding: 30px;
+}
+.signup {
+    width: 30%;
+    margin: auto;
+    position: relative;
+}
+.signup h1 {
+    font-size: 28px;
+    text-transform: capitalize;
+    color: #626262;
+    margin-bottom: 65px;
+    font-family: 'Playfair Display', serif;
+ }
+ .signup input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 1px solid #626262;
+}
+.img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    }
+/*news letter start*/
+/*button start*/
+.btn{
+	text-align: center;
+	margin: 100px 0px;
+}
+button{
+	background: transparent;
+	border: 1px solid #dddcd7;
+	border-radius: 5px;
+	padding: 13px 25px;
+	font-size: 18px;
+	color: #626262;
+	cursor: pointer;
+	transition: .7s;
+	
+}
+button:hover{
+	background-color: #adebeb;
+}
+/*button end*/
+/*footer start*/
+footer{
+    padding: 25px 0;
+    background: #F0F0F0;
+   }
+.f-menu{
+    width: 50%;
+    float: left;
+}
+.f-menu ul{
+
+}
+.f-menu ul li {
+    list-style: none;
+    float: left;
+}
+.f-menu ul li a {
+    padding: 0 10px;
+    text-decoration: none;
+    font-family: PlayfairDisplay-Regular;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 20px;
+    color: #626262;
+}
+.fm-right{
+    width: 50%;
+    float: right;
+}
+.fm-right ul {
+    float: right;
+}
+.fm-right ul li {
+    list-style: none;
+    float: left;
+}
+.fm-right ul li a {
+    padding: 0 10px;
+    text-decoration: none;
+    font-family: PlayfairDisplay-Regular;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #626262;
+
+}
+.fm-right ul li:hover a {
+	color: #000000;
+}
+/*footer end*/
+
